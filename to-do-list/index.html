@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/site-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's do it</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section class="todo">
+        <h2>To do lists</h2>
+      <div class="input">
+          <input class="input-field" type="text" id="todoInput" placeholder="Add a new task.."/>
+        <button class="button">ADD</button>
+      </div>
+      <div class="todo-container">
+        <ul class="scroll">
+          <li id="todoList"></li>
+        </ul>
+      </div>
+
+      <div>
+        <hr class="counter"/>
+        <div class="counter-container">
+          <p><span id="todoCount">0</span> items total</p>
+          <button id="deleteButton">Delete All</button>
+        </div>
+      </div>
+    </section>
+      <script type="module" src="/main.js"></script>
+      <footer>
+        <div class="footer">
+          <p>Made by Sean</p>
+          <img class="ap" src="me.jpg" alt="author-photo">
+        </div>
+      </footer>
+  </body>
+</html>
